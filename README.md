@@ -1,5 +1,4 @@
 # Facebook_Event_Detector
----
 
 ## Background and motivation
 This is a simple natural language processing project in which the input will be some series of events that I mark that I'm going or interested in on Facebook. The model will process and determine if 1) a blackout Friday is happening and 2) if there already is a carpool event dedicated for it.
