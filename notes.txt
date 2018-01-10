@@ -1,0 +1,1 @@
+Facebook currently allows only up to 64 characters in an event name.
