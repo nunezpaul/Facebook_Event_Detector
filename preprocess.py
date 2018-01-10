@@ -13,7 +13,7 @@ def isDay(s):
         return True
     return False
 
-with open('/Users/p/Desktop/Python/Facebook/NLP-Event-Detector/PastEvents_Jun2015-Jan2018.txt') as f:
+with open('/Users/p/Desktop/Python/Facebook/NLP-Event-Detector/Data/PastEvents_Jun2015-Jan2018.txt') as f:
     events = f.readlines()
 
 #First pass cleaning
@@ -59,6 +59,4 @@ while i < len(events):
         i+=1
 
 import pickle
-
-pickle.dump( events, open( "cleanedEvents", "wb" ) )
-#events = pickle.load(open('cleanedEvents.p', 'rb'))
+pickle.dump( events, open('labeledData/cleanedEvents.p', "wb" ) )
